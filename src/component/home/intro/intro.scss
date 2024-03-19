@@ -1,0 +1,54 @@
+.intro{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .cont{
+        max-width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h2{
+            font-size: 30px;
+            font-weight: 50;
+        }
+        h3{
+            letter-spacing: 10px;
+            font-size: 45px;
+            font-weight: 1000;
+        }
+        h4{
+            letter-spacing: 5px;
+            font-size: 20px;
+            font-weight: 1;
+        }
+        p{
+            letter-spacing: 2px;
+            font-size: 25px;
+            font-weight: 50;
+        }
+        button{
+            background-color: transparent;
+            max-width: 150px;
+            border: 2px solid black;
+            padding: 10px;
+            border-radius: 25px;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            
+        }
+    }
+    .img{
+        border-radius: 200px;
+        padding: 10px;
+        border: 5px solid rgb(19, 16, 16);
+        img{
+            border-radius: 200px;
+            height: 500px;
+            width: 250px;
+            background-color: rgba(0, 0, 0, .3);
+        }
+    }
+}

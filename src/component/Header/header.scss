@@ -1,0 +1,27 @@
+header{
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h1{
+            font-weight: 50;
+            letter-spacing: 5px;
+            font-size: 30px;
+            padding: 10px;  
+        }
+        .nav{
+            align-items: center;
+            display: flex;
+            gap: 50px;
+            margin: 0 20px;
+            a{
+                border-bottom: 2px solid black;
+                font-weight: 5;
+                letter-spacing: 2px;
+                font-size: 20px;
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}

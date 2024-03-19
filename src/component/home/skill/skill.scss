@@ -1,0 +1,35 @@
+.skill{
+    .heading{
+        font-size: 45px;
+        font-weight: 1;
+        text-align: center;
+        color: rgb(221, 219, 217);
+        padding: 10px;
+        background-color: rgb(19, 16, 16);
+    }
+    .container{
+        padding: 100px;
+        li{
+            word-spacing: 10px;
+            letter-spacing: 2px;
+            font-size: 25px;
+        }
+    }
+    marquee{
+        margin-bottom: 100px;
+        .marq-menu{
+            display: flex;
+            gap: 20px;
+            div{
+                box-shadow: 3px 3px 3px gray;
+                border-radius: 10px;
+                font-size: 25px;
+                padding: 15px;
+                text-align: center;
+                min-width: 200px;
+                color: rgb(221, 219, 217);
+                background-color: rgb(19, 16, 16);
+            }
+        }
+    }
+}

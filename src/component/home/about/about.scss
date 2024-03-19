@@ -1,0 +1,43 @@
+.about{
+    .heading{
+        font-size: 45px;
+        font-weight: 1;
+        text-align: center;
+        color: rgb(221, 219, 217);
+        padding: 10px;
+        background-color: rgb(19, 16, 16);
+    }
+    .about-cont{
+        padding: 100px;
+        align-items: center;
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        .img{
+            border: 5px solid rgb(19, 16, 16);
+            max-width: 300px;
+            padding: 10px;
+            border-radius: 25px;
+            .immg{
+                border-radius: 15px;
+                height: 400px;
+                width: 300px;
+                background-color: rgba(0, 0, 0, 0.3);
+            }
+        }
+        .cont{
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h5{
+                font-size: 30px;
+                letter-spacing: 3px;
+            }
+            p{
+                font-size: 20px;
+                letter-spacing: 2px;
+            }
+        }
+    }
+}
